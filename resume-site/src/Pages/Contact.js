@@ -12,7 +12,7 @@ export default function Contact() {
     return (
         <div className="contact">
             <img src="contact-img.jpg" className='contact-img' alt="Arda Ceylan at the waterfall"></img>
-            <form value='contactform' className='contact-form' method="POST" data-netlify="true">
+            <form name='contactform' className='contact-form' method="POST" netlify>
                 <h1>{translation.contact.contactme}</h1>
                 <div className="form-row">
                     <input 
