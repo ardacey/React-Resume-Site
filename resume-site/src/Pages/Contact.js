@@ -34,7 +34,7 @@ export default function Contact() {
     return (
         <div className="contact">
             <img src="contact-img.jpg" className='contact-img' alt="Arda Ceylan at the waterfall"></img>
-            <form className='contact-form' method="POST" onSubmit={handleSubmit} data-netlify="true">
+            <form className='contact-form' method="POST" onSubmit={handleSubmit} data-netlify="true" netlify>
                 <h1>{translation.contact.contactme}</h1>
                 <div className="form-row">
                     <input 
