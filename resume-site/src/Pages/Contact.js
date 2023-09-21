@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="contact">
             <img src="contact-img.jpg" className='contact-img' alt="Arda Ceylan at the waterfall"></img>
             <form name='contactform' className='contact-form' method="POST">
-                <input type="hidden" name="contactform" value="contact" />
+                <input type="hidden" name="form-name" value="contactform" />
                 <h1>{translation.contact.contactme}</h1>
                 <div className="form-row">
                     <input 
