@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import translations from "../Components/Translations";
-import axios from 'axios';
 
 export default function Contact() {
     const [selectedLanguage, setSelectedLanguage] = useState(localStorage.getItem('selectedLanguage'));
