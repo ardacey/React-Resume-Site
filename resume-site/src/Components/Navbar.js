@@ -8,7 +8,7 @@ export default function Navbar() {
     const [selectedLanguage, setSelectedLanguage] = useState(localStorage.getItem('selectedLanguage'));
     
     useEffect(() => {
-      setSelectedLanguage(localStorage.getItem('selectedLanguage') || 'eng');
+      setSelectedLanguage(localStorage.getItem('selectedLanguage'));
     }, []);
     const translation = translations[selectedLanguage];
 
@@ -24,6 +24,7 @@ export default function Navbar() {
       };
   
       window.addEventListener('scroll', handleScroll);
+      console.log(selectedLanguage)
   
       return () => {
         window.removeEventListener('scroll', handleScroll);
