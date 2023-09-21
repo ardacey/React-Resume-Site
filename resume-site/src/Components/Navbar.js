@@ -8,7 +8,7 @@ export default function Navbar() {
     const [selectedLanguage, setSelectedLanguage] = useState(localStorage.getItem('selectedLanguage'));
     
     useEffect(() => {
-      setSelectedLanguage(localStorage.getItem('selectedLanguage'));
+      setSelectedLanguage(localStorage.getItem('selectedLanguage') || 'eng');
     }, []);
     const translation = translations[selectedLanguage];
 
