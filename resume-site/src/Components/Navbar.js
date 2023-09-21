@@ -24,12 +24,13 @@ export default function Navbar() {
       };
   
       window.addEventListener('scroll', handleScroll);
-      console.log(selectedLanguage)
   
       return () => {
         window.removeEventListener('scroll', handleScroll);
       };
     }, []);
+
+    console.log(selectedLanguage)
 
     return (
       <div>
