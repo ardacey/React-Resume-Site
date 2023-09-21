@@ -18,18 +18,6 @@ export default function Contact() {
     const handleChange = (e) => {
         setEmailData({ ...emailData, [e.target.name]: e.target.value });
       };
-
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-    
-        try {
-          await axios.post('http://localhost:3001/send-email', emailData);
-          alert(translation.contact.success);
-        } catch (error) {
-          console.error(error);
-          alert(translation.contact.fail);
-        }
-      };
     
     return (
         <div className="contact">
