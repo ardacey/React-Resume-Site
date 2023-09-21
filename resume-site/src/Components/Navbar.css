@@ -1,0 +1,134 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width:100%;
+    top: 0;
+    background-color: transparent;
+    z-index: 1000;
+    transition: background-color 1s ease;
+    }
+    
+.navbar.scrolled {
+    background-color: aliceblue;
+    height: 60px;
+    box-shadow: 0px 0px 2px rgb(138, 127, 127);
+    }
+    
+.navbar-name {
+    color:transparent;
+    text-shadow: 0, 0, 100px;
+    margin-left: 30px;
+    user-select: none;
+    }
+
+.navbar-name.scrolled {
+    color: #2b2c31;
+}
+    
+.navlink{
+    width: 130px;
+    height: 60px;
+    border: none;
+    padding: 13px 20px;
+    font-weight: bold;
+    background-color: transparent;
+    color: aliceblue;
+    font-size: 18px;
+    user-select: none;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-weight: normal;
+    -webkit-user-drag: none;
+    }
+
+.navlink.scrolled {
+    color: #2b2c31;
+    }
+    
+.navlink.scrolled:hover {
+    color: aliceblue;
+    background-color: #2b2c31;
+    box-shadow: 0px 0px 2px #2b2c31;
+    }
+    
+.navlink:hover {
+    background-color: aliceblue;
+    color: #2b2c31;
+    box-shadow: 0px 0px 2px aliceblue;
+    }
+
+.active-navlink {
+    width: 130px;
+    height: 60px;
+    border: none;
+    padding: 13px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    user-select: none;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-weight: normal;
+    background-color: aliceblue;
+    color: #2b2c31;
+    box-shadow: 0px 0px 2px aliceblue;
+}
+
+.active-navlink.scrolled {
+    color: aliceblue;
+    background-color: #2b2c31;
+    box-shadow: 0px 0px 2px #2b2c31;
+}
+
+.navlink:active {
+    background-color: rgb(208, 214, 220);
+}
+
+.navlink.scrolled:active {
+    background-color: black;
+}
+  
+.box select {
+    background-color: transparent;
+    color: aliceblue;
+    padding: 12px;
+    width: 200px;
+    border: none;
+    font-size: 20px;
+    -webkit-appearance: button;
+    appearance: none;
+    outline: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: 15px;
+  }
+
+.box select:hover {
+    background-color: aliceblue;
+    color: #2b2c31;
+    box-shadow: 0px 0px 2px aliceblue;
+}
+
+.box.scrolled select{
+    color: #2b2c31;
+}
+
+.box.scrolled select:hover{
+    color: aliceblue;
+    background-color: #2b2c31;
+}
+
+.down {
+    width: 4%;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 90%;
+    z-index: 1000;
+    transition: width 0.5s ease;
+}
+
+.down.scrolled {
+    width: 0;
+}
