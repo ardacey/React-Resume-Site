@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 import { NavLink} from "react-router-dom";
-import translations from "./Translations";
+import Translations from "./Translations";
 import LanguageSelector from "./LanguageSelector"
 
 export default function Navbar() {
@@ -10,7 +10,7 @@ export default function Navbar() {
     useEffect(() => {
       setSelectedLanguage(localStorage.getItem('selectedLanguage'));
     }, []);
-    const translation = translations[selectedLanguage];
+    const translation = Translations[selectedLanguage];
 
     const [scrolled, setScrolled] = useState(false);
 
