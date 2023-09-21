@@ -35,8 +35,6 @@ export default function Navbar() {
       };
     }, []);
 
-    console.log(selectedLanguage)
-
     return (
       <div>
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
