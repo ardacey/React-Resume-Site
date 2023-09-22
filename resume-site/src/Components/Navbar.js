@@ -12,7 +12,8 @@ export default function Navbar() {
     }, []);
 
     if (!selectedLanguage) {
-      setSelectedLanguage('eng');
+      const defaultLanguage = 'eng';
+      localStorage.setItem('selectedLanguage', defaultLanguage);
     }
 
     const translation = translations[selectedLanguage];
