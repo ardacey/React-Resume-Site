@@ -9,10 +9,11 @@ export default function Navbar() {
     
     useEffect(() => {
       setSelectedLanguage(localStorage.getItem('selectedLanguage'));
-      if (!selectedLanguage) {
-        setSelectedLanguage('eng');
-      }
     }, []);
+
+    if (!selectedLanguage) {
+      setSelectedLanguage('eng');
+    }
 
     const translation = translations[selectedLanguage];
 
