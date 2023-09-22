@@ -35,14 +35,14 @@ export default function MainContent() {
             </NavLink>
             <div className= "firstContent">
                 <img src="/profile.avif" alt="Arda Ceylan looking at you" className="profilePicture"></img>
-                <h4 className="mainSpeech">
+                <p className="mainSpeech">
                     {translation.content.firstContent}
-                </h4>
+                </p>
             </div>
             <div className= "secondContent">
-                <h4 className='secondSpeech'>
+                <p className='secondSpeech'>
                     {translation.content.secondContent}
-                </h4>
+                </p>
                 <img src="/profile2.avif" alt="Arda Ceylan looking at you" className="profilePicture2"></img>
             </div>
         </div>
