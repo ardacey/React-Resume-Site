@@ -6,16 +6,16 @@ import LanguageSelector from "./LanguageSelector"
 
 export default function Navbar() {
     const [selectedLanguage, setSelectedLanguage] = useState(localStorage.getItem('selectedLanguage'));
-
-    if (!selectedLanguage) {
-      const defaultLanguage = 'eng';
-      localStorage.setItem('selectedLanguage', defaultLanguage);
-    }
     
     useEffect(() => {
       setSelectedLanguage(localStorage.getItem('selectedLanguage'));
     }, []);
     const translation = translations[selectedLanguage];
+
+    if (!selectedLanguage) {
+      const defaultLanguage = 'eng';
+      localStorage.setItem('selectedLanguage', defaultLanguage);
+    }
 
     const [scrolled, setScrolled] = useState(false);
 
