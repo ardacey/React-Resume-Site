@@ -11,6 +11,12 @@ export default function Navbar() {
       setSelectedLanguage(localStorage.getItem('selectedLanguage'));
     }, []);
 
+    if (!selectedLanguage) {
+      const defaultLanguage = 'eng';
+      localStorage.setItem('selectedLanguage', defaultLanguage);
+      setSelectedLanguage(defaultLanguage);
+    }
+
     const translation = translations[selectedLanguage] || translations['eng'];
 
     const [scrolled, setScrolled] = useState(false);
