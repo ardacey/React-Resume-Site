@@ -14,7 +14,7 @@ export default function Navbar() {
     if (!selectedLanguage) {
       const defaultLanguage = 'eng';
       localStorage.setItem('selectedLanguage', defaultLanguage);
-      setSelectedLanguage(localStorage.getItem('selectedLanguage'));
+      setSelectedLanguage(defaultLanguage);
     }
 
     const translation = translations[selectedLanguage];
