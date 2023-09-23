@@ -41,7 +41,12 @@ export default function LanguageSelector() {
 
     return (
         <div className={`box ${scrolled ? 'scrolled' : ''}`}>
-            <select value={selectedOption} onChange={handleOptionChange}>
+            <label htmlFor="languageSelect"></label>
+            <select
+              id="languageSelect"
+              value={selectedOption}
+              onChange={handleOptionChange}
+              >
                 <option value = "eng">English</option>
                 <option value = "tr">Türkçe</option>
             </select>
