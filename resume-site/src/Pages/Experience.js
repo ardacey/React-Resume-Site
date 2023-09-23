@@ -68,7 +68,6 @@ export default function Experience() {
                                     className='exp-image'
                                     src={exp.image}
                                     alt={exp.title}
-                                    loading="lazy"
                                     style={{ display: openExp === `exp${index}` ? 'block' : 'none' }}
                                 />
                             )}
