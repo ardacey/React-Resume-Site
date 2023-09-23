@@ -93,14 +93,14 @@
     background-color: transparent;
     color: aliceblue;
     padding: 12px;
-    width: 200px;
+    width: 150px;
     border: none;
     font-size: 20px;
     -webkit-appearance: button;
     appearance: none;
     outline: none;
     transition: background-color 0.3s ease, color 0.3s ease;
-    margin-right: 15px;
+    text-align: center;
   }
 
 .box select:hover {
