@@ -24,7 +24,7 @@ export default function Experience() {
         {
             title : translation.experience.exp1.title,
             exp : translation.experience.exp1.exp,
-            image: require('../bilsem1.avif')
+            image: ('../bilsem1.avif')
         },
         {
             title : translation.experience.exp2.title,
@@ -34,7 +34,7 @@ export default function Experience() {
         {
             title : translation.experience.exp3.title,
             exp : translation.experience.exp3.exp,
-            image: require('../certificate1.avif')
+            image: ('../certificate1.avif')
         },
         {
             title : translation.experience.exp4.title,
@@ -68,6 +68,7 @@ export default function Experience() {
                                     className='exp-image'
                                     src={exp.image}
                                     alt={exp.title}
+                                    loading="lazy"
                                     style={{ display: openExp === `exp${index}` ? 'block' : 'none' }}
                                 />
                             )}
