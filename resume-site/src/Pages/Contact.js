@@ -11,7 +11,7 @@ export default function Contact() {
     
     return (
         <div className="contact">
-            <img src="contact-img.jpg" className='contact-img' alt="Arda Ceylan at the waterfall"></img>
+            <img src="contact-img.avif" className='contact-img' alt="Arda Ceylan at the waterfall"></img>
             <form name='contact' className='contact-form' method="POST">
                 <input type="hidden" name="form-name" value="contact" />
                 <h1>{translation.contact.contactme}</h1>

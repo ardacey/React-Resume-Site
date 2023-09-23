@@ -12,7 +12,7 @@ export default function About() {
     return (
         <div className='aboutPage'>
             <img 
-            src='/about-photo.jpg'
+            src='/about-photo.avif'
             alt='Arda Ceylan looking at you' 
             className='about-photo'
             ></img>
