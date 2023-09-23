@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import translations from "../Components/Translations";
 import YoutubeEmbed from "../Components/YoutubeEmbed";
 
-function Experience() {
+export default function Experience() {
     const [selectedLanguage, setSelectedLanguage] = useState(localStorage.getItem('selectedLanguage'));
     
     useEffect(() => {
@@ -41,12 +41,13 @@ function Experience() {
             exp : translation.experience.exp4.exp,
             link: "https://github.com/ardacey"
         }
-    ];
+      ];
+      
 
     return (
         <div className='experience'>
             <div className='quote'>
-                <h1 className="image-text1">
+                <h1 className = "image-text1">
                     {translation.lotrQuote.quote}
                     <p className="author">
                         {translation.lotrQuote.author}
@@ -55,10 +56,10 @@ function Experience() {
             </div>
             <div className='exp-text'>
                 {experienceData.map((exp, index) => (
-                    <div key={`exp${index}`}>
-                        <div className='exp-container' onClick={() => toggleExp(`exp${index}`)}>
+                    <div>
+                        <div className='exp-container' key={`exp${index}`} onClick={() => toggleExp(`exp${index}`)}>
                             <p>
-                                {exp.title}
+                            {exp.title}
                             </p>
                         </div>
                         <div className="exp-inner-container">
@@ -74,22 +75,20 @@ function Experience() {
                             <p id={`exp${index}`} style={{ display: openExp === `exp${index}` ? 'block' : 'none' }}>
                                 {exp.exp}
                             </p>
-                        </div>
-                        <div style={{ display: openExp === `exp${index}` ? 'block' : 'none' }} className='embed'>
-                            {exp.video && (<YoutubeEmbed embedId={exp.video}></YoutubeEmbed>)}
-                        </div>
-                        {exp.link && <a 
+                            </div>
+                            <div style={{ display: openExp === `exp${index}` ? 'block' : 'none' }} className='embed'>
+                                {exp.video && (<YoutubeEmbed embedId={exp.video}></YoutubeEmbed>)}
+                            </div>
+                            {exp.link && <a 
                             href={exp.link} 
                             style={{ display: openExp === `exp${index}` ? 'block' : 'none' }} 
                             className='exp-link'
                             rel="noopener noreferrer"
                             target="_blank"
-                        >Github</a>}
+                            >Github</a>}
                     </div>
-                ))}
+                    ))}
             </div>
         </div>
     )
 }
-
-export default React.memo(Experience);
