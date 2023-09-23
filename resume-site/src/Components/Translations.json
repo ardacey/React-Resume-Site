@@ -105,6 +105,10 @@
                 "gpa" : "GPA: 3.44 (out of 4)",
                 "year" : "2022-"
             }
+        },
+
+        "language" : {
+            "change" : "Select Language:"
         }
     },
 
@@ -217,6 +221,10 @@
                 "gpa" : "GPA: 3.44 (4 üzerinden)",
                 "year" : "2022-"
             }
+        },
+        
+        "language" : {
+            "change" : "Dili Seçin:"
         }
     }
 }

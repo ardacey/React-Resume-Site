@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import translations from "./Translations";
 
 export const defaultSelectedOption = 'eng';
 
@@ -23,6 +24,8 @@ export default function LanguageSelector() {
         }
       }, []);
 
+      const translation = translations[selectedOption];
+
       useEffect(() => {
         const handleScroll = () => {
           if (window.scrollY > 99) {
@@ -41,7 +44,7 @@ export default function LanguageSelector() {
 
     return (
         <div className={`box ${scrolled ? 'scrolled' : ''}`}>
-            <label htmlFor="languageSelect"></label>
+            <label htmlFor="languageSelect" className={`selection ${scrolled ? 'scrolled' : ''}`}>{translation.language.change}</label>
             <select
               id="languageSelect"
               value={selectedOption}
