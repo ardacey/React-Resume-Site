@@ -3,6 +3,8 @@ import './Navbar.css';
 import { NavLink} from "react-router-dom";
 import translations from "./Translations";
 import LanguageSelector from "./LanguageSelector"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 export default function Navbar() {
     const [selectedLanguage, setSelectedLanguage] = useState(localStorage.getItem('selectedLanguage'));
@@ -23,10 +25,12 @@ export default function Navbar() {
 
     useEffect(() => {
       const handleScroll = () => {
-        if (window.scrollY > 99) {
-          setScrolled(true);
-        } else {
-          setScrolled(false);
+          if (window.innerWidth > 768) {
+            if (window.scrollY > 99) {
+              setScrolled(true);
+            } else {
+              setScrolled(false);
+            }
         }
       };
   
@@ -37,11 +41,41 @@ export default function Navbar() {
       };
     }, []);
 
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+    const toggleMobileMenu = () => {
+      setIsMobileMenuOpen(!isMobileMenuOpen);
+      if (window.innerWidth <= 768) {
+        document.body.classList.toggle('mobile-menu-open', isMobileMenuOpen);
+      }
+    };
+
+    useEffect(() => {
+      const closeMobileMenu = (event) => {
+        if (
+          isMobileMenuOpen &&
+          event.target.closest(".mobile-menu-icon") === null &&
+          event.target.closest(".navbar-links") === null
+        ) {
+          setIsMobileMenuOpen(false);
+        }
+      };
+    
+      document.addEventListener('click', closeMobileMenu);
+    
+      return () => {
+        document.removeEventListener('click', closeMobileMenu);
+      };
+    }, [isMobileMenuOpen]);
+
     return (
       <div>
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <h1 className= {`navbar-name ${scrolled ? 'scrolled' : ''}`}> Arda Ceylan </h1>
-            <div>
+            <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
+              <FontAwesomeIcon icon={isMobileMenuOpen ? faTimes : faBars} />
+            </div>
+            <div className={`navbar-links ${isMobileMenuOpen ? 'open' : ''}`}>
                 <NavLink
                     draggable="false"
                     className=  {({isActive}) => isActive ? `active-navlink ${scrolled ? 'scrolled' : ''}` : `navlink ${scrolled ? 'scrolled' : ''}`}

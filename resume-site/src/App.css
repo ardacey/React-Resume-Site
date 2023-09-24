@@ -4,11 +4,12 @@
 
 .container {
   height: 2300px;
+  width: auto;
 }
 
 .profilePicture {
   max-width: 35%;
-  height: 35%;
+  max-height: 35%;
   position: relative;
   top: 50px;
   border-radius: 50%;

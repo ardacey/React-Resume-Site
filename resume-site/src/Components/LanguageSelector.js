@@ -28,12 +28,14 @@ export default function LanguageSelector() {
 
       useEffect(() => {
         const handleScroll = () => {
-          if (window.scrollY > 99) {
-            setScrolled(true);
-          } else {
-            setScrolled(false);
-          }
-        };
+          if (window.innerWidth > 768) {
+            if (window.scrollY > 99) {
+              setScrolled(true);
+            } else {
+              setScrolled(false);
+            }
+        }
+      };
     
         window.addEventListener('scroll', handleScroll);
     
