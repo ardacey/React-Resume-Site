@@ -160,6 +160,7 @@
         top: 50px;
         transition: transform 0.3s ease-in-out;
         transform: translateX(100%);
+        overflow-y: auto;
     }
 
     .navbar-links > a {
@@ -197,5 +198,11 @@
         z-index: 1000;
         background-color: aliceblue;
         color: black;
+    }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+    .navbar-links {
+        max-height: 300px;
     }
 }

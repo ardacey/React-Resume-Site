@@ -45,9 +45,6 @@ export default function Navbar() {
 
     const toggleMobileMenu = () => {
       setIsMobileMenuOpen(!isMobileMenuOpen);
-      if (window.innerWidth <= 768) {
-        document.body.classList.toggle('mobile-menu-open', isMobileMenuOpen);
-      }
     };
 
     const closeMobileMenu = () => {
