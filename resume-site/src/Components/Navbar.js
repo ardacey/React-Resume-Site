@@ -50,6 +50,10 @@ export default function Navbar() {
       }
     };
 
+    const closeMobileMenu = () => {
+      setIsMobileMenuOpen(false);
+    };
+
     useEffect(() => {
       const closeMobileMenu = (event) => {
         if (
@@ -80,6 +84,7 @@ export default function Navbar() {
                     draggable="false"
                     className=  {({isActive}) => isActive ? `active-navlink ${scrolled ? 'scrolled' : ''}` : `navlink ${scrolled ? 'scrolled' : ''}`}
                     to = "/"
+                    onClick={closeMobileMenu}
                 >
                     {translation.navbar.home}
                 </NavLink>
@@ -87,6 +92,7 @@ export default function Navbar() {
                     draggable="false"
                     className= {({isActive}) => isActive ? `active-navlink ${scrolled ? 'scrolled' : ''}` : `navlink ${scrolled ? 'scrolled' : ''}`}
                     to = "/about"
+                    onClick={closeMobileMenu}
                 >
                     {translation.navbar.about}
                 </NavLink>
@@ -94,6 +100,7 @@ export default function Navbar() {
                     draggable="false"
                     className= {({isActive}) => isActive ? `active-navlink ${scrolled ? 'scrolled' : ''}` : `navlink ${scrolled ? 'scrolled' : ''}`}
                     to = "/experience"
+                    onClick={closeMobileMenu}
                 >
                     {translation.navbar.experience}
                 </NavLink>
@@ -101,6 +108,7 @@ export default function Navbar() {
                     draggable="false"
                     className= {({isActive}) => isActive ? `active-navlink ${scrolled ? 'scrolled' : ''}` : `navlink ${scrolled ? 'scrolled' : ''}`}
                     to = "/education"
+                    onClick={closeMobileMenu}
                 >
                     {translation.navbar.education}
                 </NavLink>
@@ -108,6 +116,7 @@ export default function Navbar() {
                     draggable="false"
                     className= {({isActive}) => isActive ? `active-navlink ${scrolled ? 'scrolled' : ''}` : `navlink ${scrolled ? 'scrolled' : ''}`}
                     to = "/contact"
+                    onClick={closeMobileMenu}
                 >
                     {translation.navbar.contact}
                 </NavLink>
