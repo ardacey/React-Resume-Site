@@ -17,7 +17,7 @@
 
 .profilePicture2 {
   max-width: 35%;
-  height: 35%;
+  max-height: 35%;
   position: relative;
   bottom: 40px;
   border-radius: 50%;
