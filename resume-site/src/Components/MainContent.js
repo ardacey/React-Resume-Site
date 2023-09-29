@@ -34,7 +34,7 @@ export default function MainContent() {
                   <img src='github.ico' className='social-media' alt="github icon"></img>
             </NavLink>
             <div className= "firstContent">
-                <img src="/profile.avif" alt="Arda Ceylan looking at you" className="profilePicture"></img>
+                <img src="/profile.webp" alt="Arda Ceylan looking at you" className="profilePicture"></img>
                 <p className="mainSpeech">
                     {translation.content.firstContent}
                 </p>
@@ -43,7 +43,7 @@ export default function MainContent() {
                 <p className='secondSpeech'>
                     {translation.content.secondContent}
                 </p>
-                <img src="/profile2.avif" alt="Arda Ceylan looking at you" className="profilePicture2"></img>
+                <img src="/profile2.webp" alt="Arda Ceylan looking at you" className="profilePicture2"></img>
             </div>
         </div>
     )

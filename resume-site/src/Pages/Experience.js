@@ -24,7 +24,7 @@ export default function Experience() {
         {
             title : translation.experience.exp1.title,
             exp : translation.experience.exp1.exp,
-            image: ('../bilsem1.avif')
+            image: ('../bilsem1.webp')
         },
         {
             title : translation.experience.exp2.title,
@@ -34,7 +34,7 @@ export default function Experience() {
         {
             title : translation.experience.exp3.title,
             exp : translation.experience.exp3.exp,
-            image: ('../certificate1.avif')
+            image: ('../certificate1.webp')
         },
         {
             title : translation.experience.exp4.title,

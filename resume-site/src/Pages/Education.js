@@ -29,14 +29,14 @@ export default function Education() {
                 <p>{translation.education.school1.gpa}</p>
                 <p>{translation.education.school1.year}</p>
                 <img
-                src='/school1.avif'
+                src='/school1.webp'
                 alt='Başkent High School'
                 className='school1-img'
                 ></img>
             </div>
             <div className='school2'>
                 <img
-                src='/school2.avif'
+                src='/school2.webp'
                 alt='Hacettepe University'
                 className='school2-img'
                 ></img>
