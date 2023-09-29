@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import translations from "../Components/Translations";
 import YoutubeEmbed from "../Components/YoutubeEmbed";
 
 export default function Experience() {
     const [selectedLanguage, setSelectedLanguage] = useState(localStorage.getItem('selectedLanguage'));
+    const expContainerRef = useRef(null);
     
     useEffect(() => {
       setSelectedLanguage(localStorage.getItem('selectedLanguage'));
@@ -17,6 +18,10 @@ export default function Experience() {
             setOpenExp('');
         } else {
             setOpenExp(expId);
+            const expContainer = expContainerRef.current;
+            if (expContainer) {
+                expContainer.scrollIntoView({ behavior: 'smooth' });
+            }
         }
     }
 
@@ -62,7 +67,7 @@ export default function Experience() {
                             {exp.title}
                             </p>
                         </div>
-                        <div className="exp-inner-container">
+                        <div className="exp-inner-container" ref={expContainerRef}>
                             {exp.image && (
                                 <img
                                     className='exp-image'
