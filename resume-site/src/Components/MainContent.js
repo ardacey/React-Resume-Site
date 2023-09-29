@@ -36,6 +36,7 @@ export default function MainContent() {
             <img
                 src="resume.ico"
                 className="navlink-social"
+                alt='resume icon'
                 style={{ cursor: 'pointer' }}
                 onClick={() => window.open("resume.pdf", '_blank')}>
             </img>
