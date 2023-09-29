@@ -154,20 +154,26 @@
     .navbar-links {
         display: flex;
         flex-direction: column;
-        background-color: aliceblue;
+        background-color: white;
+        opacity: 0.9;
         position: fixed;
         right: 0px;
         top: 50px;
         transition: transform 0.3s ease-in-out;
         transform: translateX(100%);
         overflow-y: auto;
+        box-shadow: 0px 0px 10px black;
     }
 
     .navbar-links > a {
         color: black;
-        border: 2px solid black;
         text-align: center;
         line-height: 60px;
+        transition: color 0.3s ease;
+    }
+
+    .navbar-links > a:hover {
+        color: rgb(71, 167, 167);
     }
   
     .mobile-menu-icon {
@@ -177,6 +183,7 @@
         right: 0px;
         width: 40px;
         height: 40px;
+        font-size: 25px;
     }
   
     .navbar-links.open {
