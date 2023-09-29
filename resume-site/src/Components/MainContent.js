@@ -33,6 +33,12 @@ export default function MainContent() {
                 className="navlink-social">
                   <img src='github.ico' className='social-media' alt="github icon"></img>
             </NavLink>
+            <img
+                src="resume.ico"
+                className="navlink-social"
+                style={{ cursor: 'pointer' }}
+                onClick={() => window.open("resume.pdf", '_blank')}>
+            </img>
             <div className= "firstContent">
                 <img src="/profile.webp" alt="Arda Ceylan looking at you" className="profilePicture"></img>
                 <p className="mainSpeech">
