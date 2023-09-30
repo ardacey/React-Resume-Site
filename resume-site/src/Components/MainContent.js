@@ -50,7 +50,7 @@ export default function MainContent() {
                 <p className='secondSpeech'>
                     {translation.content.secondContent}
                 </p>
-                <img src="/profile2.webp" alt="Arda Ceylan looking at you" className="profilePicture2"></img>
+                <img src="/profile2.webp" alt="Arda Ceylan looking at you" className="profilePicture"></img>
             </div>
         </div>
     )

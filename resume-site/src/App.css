@@ -8,35 +8,28 @@
 }
 
 .profilePicture {
-  max-width: 35%;
-  max-height: 35%;
+  max-width: 70%;
+  max-height: 70%;
   position: relative;
-  top: 50px;
-  border-radius: 50%;
-}
-
-.profilePicture2 {
-  max-width: 35%;
-  max-height: 35%;
-  position: relative;
-  bottom: 40px;
+  top: 10%;
   border-radius: 50%;
 }
 
 .content {
   position: relative;
-  top: 800px;
-  left: 120px;
-  height: 1200px;
-  width: 1200px;
-  background-color: #2b2c31;
+  top: 35%;
+  left: 10%;
+  height: 50%;
+  width: 80%;
+  padding-bottom: 10%;
+  background-color: #585a62;
 }
 
 .firstContent {
   display: flex;
   justify-content: center;
-  padding-bottom: 80px;
   width: 80%;
+  height: 40%;
   margin: 0 auto;
   background-color: white;
   transition: background-color 1s ease;
@@ -49,10 +42,9 @@
 .secondContent {
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
   width: 80%;
+  height: 40%;
   margin: 0 auto;
-  padding-top: 100px;
   background-color: white;
   transition: background-color 1s ease;
 }
@@ -62,17 +54,17 @@
 }
 
 .mainSpeech {
-  width: 330px;
-  margin-left: 150px;
-  margin-top: 60px;
+  width: 40%;
+  margin-left: 10%;
+  margin-top: 10%;
   text-align: justify;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .secondSpeech {
-  width: 330px;
-  margin-right: 150px;
-  margin-top: 0px;
+  width: 40%;
+  margin-right: 10%;
+  margin-top: 10%;
   text-align: justify;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -83,10 +75,11 @@
 
 .navlink-social {
   position: relative;
-  left: 1120px;
-  top: 530px;
+  left: 95%;
+  top: 50%;
   display: block;
   width: 40px;
+  border-bottom: 10px solid transparent;
 }
 
 .Footer {
@@ -106,8 +99,8 @@
   font-weight: bold;
   line-height: 1.5;
   font-size: 60px;
-  bottom: 400px;
-  left: 100px
+  bottom: 60%;
+  left: 10%;
 }
 
 .image-text2 {
@@ -116,15 +109,14 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   line-height: 1.5;
-  bottom: 250px;
-  left: 200px;
-  display: block;
+  bottom: 40%;
+  left: 10%;
   width: 400px;
 }
 
 .author {
   position: absolute;
-  left: 280px
+  left: 70%;
 }
 
 .quote {
@@ -416,78 +408,62 @@
   }
 
   .image-text1 {
-    font-size: 30px;
-    left: 20px;
+    font-size: 190%;
+    left: 5%;
   }
   
   .image-text2 {
-    font-size: 15px;
-    left: 20px;
-    width: 300px;
-    top: 300px;
+    font-size: 100%;
+    left: 5%;
+    width: 80%;
+    top: 40%;
   }
 
   .content {
-    position: relative;
-    top: 700px;
-    left: 0px;
-    height: 1200px;
+    top: 30%;
+    left: 0%;
+    height: 55%;
     width: 100%;
-    background-color: #2b2c31;
   }
 
   .firstContent {
     display: block;
     justify-content: center;
-    padding-bottom: 80px;
     width: 80%;
-    margin: 0 auto;
-    background-color: white;
-    transition: background-color 1s ease;
   }
   
   .secondContent {
     display: block;
     justify-content: center;
-    padding-bottom: 0px;
     width: 80%;
-    margin: 0 auto;
-    background-color: white;
-    transition: background-color 1s ease;
   }
 
   .mainSpeech {
-    width: 280px;
-    margin-left: 3px;
-    margin-top: 60px;
-    font-size: 10px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20%;
+    font-size: 60%;
   }
   
   .secondSpeech {
-    width: 280px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-left: 3px;
-    padding-top: 50px;
-    font-size: 10px;
+    width: 90%;
+    margin-top: 0%;
+    margin-left: 5%;
+    padding-top: 10%;
+    font-size: 60%;
   }
 
   .profilePicture {
-    top: 30px;
-    left: 30%;
-  }
-  
-  .profilePicture2 {
-    bottom: 250px;
-    right: 30%;
-    left: 100px;
+    top: 5%;
+    left: 17%;
   }
 
   .navlink-social {
-    left: 100px;
-    top: 700px;
+    left: 20%;
+    top: 75%;
     display: inline;
     margin-right: 20px;
+    border-bottom: 0px;
   }
 
   .aboutPage {
@@ -625,37 +601,34 @@
 
 @media (max-width: 768px) and (orientation: landscape) {
   .image-text1 {
-    top: 50px;
+    top: 10%;
   }
   
   .image-text2 {
-    top: 100px;
-    width: 500px;
+    top: 30%;
+    width: 80%;
   }
 
   .mainSpeech {
-    width: 350px;
-    margin-left: 100px;
-    margin-top: 60px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
   }
   
   .secondSpeech {
-    width: 350px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-left: 120px;
-    padding-top: 50px;
-    position: relative;
-    top: 80px;
+    width: 60%;
+    margin-left: 20%;
+    top: 10%;
   }
 
-  .profilePicture2 {
-    left: 200px;
+  .profilePicture {
+    width: 40%;
+    left: 30%;
   }
 
   .navlink-social {
-    left: 250px;
-    top: 850px;
+    left: 35%;
+    top: 78%;
   }
 
   .about-photo {
