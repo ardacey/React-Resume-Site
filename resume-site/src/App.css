@@ -243,21 +243,20 @@
 .exp-text {
   position: absolute;
   display: flex;
-  top: 700px;
-  right: 800px;
-  margin: 30px;
+  top: 100%;
+  right: 70%;
+  margin: 5%;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .exp-container {
   width: 250px;
-  height: 142.7px;
+  height: 150px;
   border: 2px solid aliceblue;
   color: aliceblue;
-  padding: 15px;
+  padding: 5%;
   user-select: none;
-  box-shadow: 0px 0px 2px black;
   transition: color 1s ease, background-color 1s ease;
   cursor: pointer;
 }
@@ -272,38 +271,38 @@
 }
 
 .exp-inner-container {
-  top: 0px;
+  top: 0%;
   position: absolute;
-  left: 700px;
+  left: 200%;
   border: 2px solid aliceblue;
   color: aliceblue;
   height: 600px;
   width: 600px;
-  padding: 50px;
+  padding: 20%;
   text-align: justify;
 }
 
 .embed {
-  width: 600px;
+  width: 200%;
   position: absolute;
-  left: 750px;
-  top: 320px;
+  left: 220%;
+  top: 50%;
   z-index: 900;
 }
 
 .exp-image {
-  width: 600px;
+  width: 100%;
 }
 
 .exp-link {
   position: relative;
-  left: 430px;
-  bottom: 200px;
+  left: 250%;
+  bottom: 250%;
   font-size: 40px;
   text-decoration: none;
   color: aliceblue;
   transition: color 1s ease, background-color 1s ease;
-  width: 120px;
+  width: 50%;
 }
 
 .exp-link:hover {
@@ -497,36 +496,26 @@
   }
 
   .exp-text {
-    right: 0px;
-  }
-  
-  .exp-container {
-    width: 250px;
-    height: 142.7px;
+    right: 5%;
   }
   
   .exp-inner-container {
-    top: 800px;
-    left: 0px;
+    top: 120%;
+    left: 3%;
     height: 120%;
     width: 90%;
-    padding: 15px;
+    padding: 5%;
   }
   
   .embed {
-    width: 250px;
-    left: 20px;
-    top: 1370px;
-  }
-  
-  .exp-image {
-    width: 100%;
+    width: 90%;
+    left: 8%;
+    top: 200%;
   }
   
   .exp-link {
-    left: 30%;
-    bottom: 0px;
-    top: 100%;
+    left: 5%;
+    top: 150%;
   }
 
   .education {
@@ -663,14 +652,8 @@
   
   .embed {
     width: 90%;
-    left: 20px;
-    top: 1100px;
-  }
-  
-  .exp-link {
-    left: 0%;
-    bottom: 0px;
-    top: 250%;
+    left: 8%;
+    top: 230%;
   }
 
   .education {
