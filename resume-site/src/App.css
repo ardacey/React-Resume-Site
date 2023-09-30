@@ -315,11 +315,11 @@
 }
 
 .school1 {
-  height: 500px;
-  width: 900px;
+  height: 35%;
+  width: 60%;
   position: relative;
-  top: 800px;
-  left: 250px;
+  top: 55%;
+  left: 17%;
   background-color: aliceblue;
   clip-path: polygon(30% 0, 0 0, 0 100%, 70% 100%);
   transition: background-color 0.5s ease, color 0.5s ease;
@@ -331,11 +331,11 @@
 }
 
 .school2 {
-  height: 500px;
-  width: 900px;
+  height: 35%;
+  width: 60%;
   position: relative;
-  top: 300px;
-  left: 300px;
+  top: 20%;
+  left: 22%;
   background-color: aliceblue;
   clip-path: polygon(30% 0, 100% 0%, 100% 100%, 70% 100%);
   transition: background-color 1s ease, color 1s ease;
@@ -347,31 +347,31 @@
 }
 
 .school1 > p {
-  width: 300px;
+  width: 50%;
   position: relative;
-  top: 50px;
-  left: 50px
+  top: 10%;
+  left: 5%;
 }
 
 .school2 > p {
+  width: 50%;
   position: relative;
-  left: 650px;
-  top: 50px;
-  width: 300px;
+  left: 70%;
+  top: 10%;
 }
 
 .school1-img {
-  width: 400px;
+  width: 45%;
   position: relative;
-  top: 100px;
-  left: 20px;
+  top: 20%;
+  left: 2%;
 }
 
 .school2-img {
-  width: 400px;
+  width: 45%;
   position: relative;
-  left: 475px;
-  top: 20px;
+  left: 53%;
+  top: 3%;
 }
 
 .video-responsive {
@@ -519,11 +519,11 @@
   }
 
   .education {
-    height: 1500px;
+    height: 2000px;
   }
   
   .school1 {
-    top: 40%;
+    top: 35%;
     width: 90%;
     left: 5%;
     clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
@@ -531,7 +531,7 @@
   
   .school2 {
     width: 90%;
-    top: 32%;
+    top: 27%;
     left: 5%;
     clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
   }
@@ -543,13 +543,13 @@
   
   .school1-img {
     width: 90%;
-    top: 60px;
+    top: 20%;
     left: 5%;
   }
   
   .school2-img {
     width: 90%;
-    left: 10%;
+    left: 5%;
     top: 30%;
   }
 
@@ -661,34 +661,32 @@
   }
   
   .school1 {
-    width: 600px;
-    top: 500px;
-    left: 5%;
+    top: 40%;
+    left: 3%;
     clip-path: polygon(30% 0, 0 0, 0 100%, 70% 100%);
   }
   
   .school2 {
-    width: 600px;
-    top: 0px;
-    left: 10%;
+    top: 5%;
+    left: 7%;
     clip-path: polygon(30% 0, 100% 0%, 100% 100%, 70% 100%);
   }
   
   .school2 > p {
-    left: 400px;
-    top: 100px;
-    width: 300px;
+    left: 70%;
+    top: 10%;
+    width: 30%;
   }
   
   .school1-img {
-    width: 50%;
-    top: 170px;
-    left: 20px;
+    width: 47%;
+    top: 25%;
+    left: 3%;
   }
   
   .school2-img {
-    width: 50%;
-    left: 280px;
-    top: 20px;
+    width: 47%;
+    left: 50%;
+    top: 3%;
   }
 }
