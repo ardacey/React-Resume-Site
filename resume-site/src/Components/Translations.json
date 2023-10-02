@@ -19,10 +19,6 @@
             "author" : "-Frank Herbert"
         },
 
-        "tenetQuote" : {
-            "quote" : "We live in a twilight world. And there are no friends at dusk."
-        },
-
         "lotrQuote" : {
             "quote" : "Even the smallest person can change the course of the future.",
             "author" : "-Galadriel"
@@ -133,10 +129,6 @@
             "quote1" : "Korkmamalıyım. Korku katilidir aklın.",
             "quote2" : "Korku, mutlak yıkım getiren küçük ölümdür. Korkumla yüzleşeceğim. Onun etrafımdan ve içimden geçip gitmesine izin vereceğim. Ve geçip gittiğinde, onun izlediği yolu görmek için iç gözümü kullanacağım. Korkunun geçtiği yerde hiçbir şey olmayacak. Yalnızca ben kalacağım.",
             "author" : "-Frank Herbert"
-        },
-
-        "tenetQuote" : {
-            "quote" : "Alacakaranlık bir dünyada yaşıyoruz. Ve alacakaranlıkta hiç arkadaş yoktur."
         },
 
         "lotrQuote" : {
