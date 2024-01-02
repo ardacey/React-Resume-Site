@@ -13,18 +13,18 @@ export default function MainContent() {
     return (
         <div className="content">
             <NavLink 
-                to = "https://www.linkedin.com/in/arda-ceylan-911a82252/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="navlink-social">
-                  <img src='linkedin.ico' className='social-media' alt="linkedin icon"></img>
-            </NavLink>
-            <NavLink 
                 to = "https://www.instagram.com/ardaceyy/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="navlink-social">
                   <img src='instagram.ico' className='social-media' alt="instagram icon"></img>
+            </NavLink>
+            <NavLink 
+                to = "https://www.linkedin.com/in/arda-ceylan-911a82252/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="navlink-social">
+                  <img src='linkedin.ico' className='social-media' alt="linkedin icon"></img>
             </NavLink>
             <NavLink 
                 to = "https://github.com/ardacey" 
