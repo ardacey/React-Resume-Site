@@ -3,6 +3,7 @@
         "navbar" : {
             "home" : "Home",
             "about" : "About",
+            "projects" : "Projects",
             "experience" : "Experience",
             "education" : "Education",
             "contact" : "Contact"
@@ -111,6 +112,7 @@
         "navbar" : {
             "home" : "Ana sayfa",
             "about" : "Hakkında",
+            "projects" : "Projeler",
             "experience" : "Deneyimler",
             "education" : "Eğitim",
             "contact" : "İletişim"

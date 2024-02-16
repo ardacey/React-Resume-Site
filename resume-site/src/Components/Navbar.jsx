@@ -96,6 +96,14 @@ export default function Navbar() {
                 <NavLink 
                     draggable="false"
                     className= {({isActive}) => isActive ? `active-navlink ${scrolled ? 'scrolled' : ''}` : `navlink ${scrolled ? 'scrolled' : ''}`}
+                    to = "/projects"
+                    onClick={closeMobileMenu}
+                >
+                    {translation.navbar.projects}
+                </NavLink>
+                <NavLink 
+                    draggable="false"
+                    className= {({isActive}) => isActive ? `active-navlink ${scrolled ? 'scrolled' : ''}` : `navlink ${scrolled ? 'scrolled' : ''}`}
                     to = "/experience"
                     onClick={closeMobileMenu}
                 >
