@@ -44,7 +44,7 @@ export default function Experience() {
         {
             title : translation.experience.exp4.title,
             exp : translation.experience.exp4.exp,
-            link: "https://github.com/ardacey"
+            image: "../inzva.webp"
         }
       ];
       
