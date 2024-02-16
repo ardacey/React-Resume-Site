@@ -47,11 +47,7 @@
 
         "about" : {
             "about1" : "Born on July 6, 2004 in Adana, my passion for software and technology since I was little drew me to this field. However, my life has not only been about software. I have worked in many different fields such as fanzine writing, short film directing, participating in chess tournaments, volunteering as an English teacher, and I would like to work in many more fields in the future. I think it should be a part of my life to go beyond the field you are competent in and learn from different fields, because only in this way can I think creatively and look at things from different angles.",
-            "about2" : "A few facts about me:",
-            "about3" : "My favorite director is Christopher Nolan.",
-            "about4" : "My favorite movie is La La Land.",
-            "about5" : "My favorite band is King Crimson.",
-            "about6" : "My favorite book is Dune."
+            "about2" : "As a highly proficient computer engineer fluent in Turkish and possessing an upper-intermediate level of English, I bring extensive experience in software development to the table. With a deep understanding of various programming languages, I actively engage in attending programming and technology conferences to stay abreast of the latest advancements and to expand my professional network."
         },
 
         "experience" : {
@@ -159,11 +155,7 @@
 
         "about" : {
             "about1" : "6 Temmuz 2004 tarihinde Adana'da doğdum. Küçüklüğümden beri yazılıma ve teknolojiye olan tutkum beni bu alana çekti. Ancak hayatım sadece yazılımdan ibaret olmadı. Fanzin yazarlığı, kısa film yönetmenliği, satranç turnuvalarına katılma, gönüllü İngilizce öğretmenliği gibi birçok farklı alanda çalıştım ve ileride daha birçok alanda çalışmak istiyorum. Bence yetkin olduğunuz alanın dışına çıkmak ve farklı alanlardan bir şeyler öğrenmek hayatımın bir parçası olmalı, çünkü ancak bu şekilde yaratıcı düşünebilir ve olaylara farklı açılardan bakabilirim.",
-            "about2" : "Benim hakkımda birkaç bilgi:",
-            "about3" : "Favori yönetmenim Christopher Nolan.",
-            "about4" : "Favori filmim \"Aşıklar Şehri\".",
-            "about5" : "Favori müzik grubum King Crimson.",
-            "about6" : "Favori kitabım Dune."
+            "about2" : "Türkçe'yi akıcı bir şekilde konuşan ve orta-üst düzeyde İngilizce bilen son derece yetkin bir bilgisayar mühendisi olarak, yazılım geliştirme alanında geniş deneyime sahibim. Çeşitli programlama dillerini derinlemesine anlayarak, en son gelişmelerden haberdar olmak ve profesyonel ağımı genişletmek için programlama ve teknoloji konferanslarına aktif olarak katılıyorum."
         },
 
         "experience" : {

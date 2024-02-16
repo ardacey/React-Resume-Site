@@ -19,15 +19,9 @@ export default function About() {
             <p className='about-me'>
                 {translation.about.about1}
             </p>
-            <p className='about-me2'>
+            <p className='about-me'>
                 {translation.about.about2}
             </p>
-            <ul className='about-list'>
-                <li>{translation.about.about3}</li>
-                <li>{translation.about.about4}</li>
-                <li>{translation.about.about5}</li>
-                <li>{translation.about.about6}</li>
-            </ul>
         </div>
     )
 }
