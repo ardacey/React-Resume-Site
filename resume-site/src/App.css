@@ -364,6 +364,53 @@
   position: absolute;
 }
 
+.project-content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 10%;
+  width: 90%;
+  height: 15%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  border: 2px solid aliceblue;
+}
+
+.gif1 {
+  width: 30%;
+  height: 300px;
+  border: none;
+  position: absolute;
+  right: 5%;
+  top: 13%;
+}
+
+.gif2 {
+  width: 30%;
+  height: 300px;
+  border: none;
+  position: absolute;
+  left: 10%;
+  top: 13%;
+}
+
+.project-text1 {
+  color: aliceblue;
+  width: 40%;
+  position: absolute;
+  left: 10%;
+  text-align: justify;
+}
+
+.project-text2 {
+  color: aliceblue;
+  width: 40%;
+  position: absolute;
+  right: 5%;
+  text-align: justify;
+}
+
 @keyframes fadeIn {
   0% {
   opacity: 0;
