@@ -51,6 +51,33 @@
             "about2" : "As a highly proficient computer engineer fluent in Turkish and possessing an upper-intermediate level of English, I bring extensive experience in software development to the table. With a deep understanding of various programming languages, I actively engage in attending programming and technology conferences to stay abreast of the latest advancements and to expand my professional network."
         },
 
+        "projects" : {
+            "blockfall" : {
+                "title" : "Blockfall",
+                "tech" : "Technology used: C++",
+                "desc" : "I meticulously crafted Blockfall, a classic Tetris game, from scratch using C++. This project was a thrilling journey that challenged me to delve into core game mechanics while exploring visual representation and user interaction within a game development framework. The game's development process allowed me to hone my programming skills and gain a deeper understanding of game design principles, further fueling my passion for software development and game design.",
+                "link" : "Link to the project: "
+            },
+            "duckhunt" : {
+                "title" : "Duckhunt",
+                "tech" : "Technology used: Java/JavaFX",
+                "desc" : "Developed a playable Duck Hunt clone using JavaFX, demonstrating strong proficiency in UI design, animation, and game mechanics implementation.",
+                "link" : "Link to the project: "
+            },
+            "knn" : {
+                "title" : "Personality Classification With KNN Algorithm",
+                "tech" : "Technology used: Python",
+                "desc" : "I created a personality classification model using machine learning techniques. I used Python to explore various algorithms to achieve accurate and insightful personality assessments. I analyzed responses from over 60,000 individuals and categorized personalities based on predefined traits using K-Nearest Neighbors (KNN), Deep Learning, and Natural Language Processing (NLP). KNN was effective in identifying patterns and similarities. The model achieved an accuracy of over 98%, making it a valuable tool for uncovering personality traits in various contexts.",
+                "link" : "Link to the project: "
+            },
+            "weather" : {
+                "title" : "Hacettepe Weather Website",
+                "tech" : "Technology used: NextJS",
+                "desc" : "I created a weather website for Hacettepe University using Next.js. The website provides accurate and detailed weather updates for students, faculty, and visitors. It integrates advanced weather APIs to offer real-time and forecasted data customized to Hacettepe's location, surpassing generic weather platforms in accuracy and granularity. Users can access detailed weather parameters such as wind speed, humidity, and pressure, enabling them to plan outdoor activities and adjust to the forecast.",
+                "link" : "Link to the project: "
+            }
+        },
+
         "experience" : {
             "exp1" : {
                 "title" : "Science and Art Center (BİLSEM) Education (9 Years)",
@@ -95,7 +122,7 @@
             "school2" : {
                 "name" : "Hacettepe University",
                 "depart" : "Computer Engineering",
-                "gpa" : "GPA: 3.44 (out of 4)",
+                "gpa" : "GPA: 3.51 (out of 4)",
                 "year" : "2022-"
             }
         },
@@ -160,6 +187,33 @@
             "about2" : "Türkçe'yi akıcı bir şekilde konuşan ve orta-üst düzeyde İngilizce bilen son derece yetkin bir bilgisayar mühendisi olarak, yazılım geliştirme alanında geniş deneyime sahibim. Çeşitli programlama dillerini derinlemesine anlayarak, en son gelişmelerden haberdar olmak ve profesyonel ağımı genişletmek için programlama ve teknoloji konferanslarına aktif olarak katılıyorum."
         },
 
+        "projects" : {
+            "blockfall" : {
+                "title" : "Blockfall",
+                "tech" : "Kullanılan Teknoloji: C++",
+                "desc" : "Klasik bir Tetris oyunu olan Blockfall'u C++ kullanarak sıfırdan titizlikle hazırladım. Bu proje, bir oyun geliştirme çerçevesi içinde görsel temsili ve kullanıcı etkileşimini keşfederken temel oyun mekaniklerini araştırmam için beni zorlayan heyecan verici bir yolculuktu. Oyunun geliştirme süreci, programlama becerilerimi geliştirmemi ve oyun tasarım ilkelerini daha iyi anlamamı sağlayarak yazılım geliştirme ve oyun tasarımına olan tutkumu daha da körükledi.",
+                "link" : "Proje Linki: "
+            },
+            "duckhunt" : {
+                "title" : "Duckhunt",
+                "tech" : "Kullanılan Teknoloji: Java/JavaFX",
+                "desc" : "JavaFX kullanarak oynanabilir bir Duck Hunt klonu geliştirdim ve kullanıcı arayüzü tasarımı, animasyon ve oyun mekaniği uygulamasında güçlü bir yetkinlik sergiledim.",
+                "link" : "Proje Linki: "
+            },
+            "knn" : {
+                "title" : "KNN Algoritması ile Kişilik Sınıflandırması",
+                "tech" : "Kullanılan Teknoloji: Python",
+                "desc" : "Makine öğrenimi tekniklerini kullanarak bir kişilik sınıflandırma modeli oluşturdum. Doğru ve anlayışlı kişilik değerlendirmeleri elde etmek için çeşitli algoritmaları keşfetmek üzere Python kullandım. K-En Yakın Komşular (KNN), Derin Öğrenme ve Doğal Dil İşleme (NLP) kullanarak 60.000'den fazla kişinin yanıtlarını analiz ettim ve kişilikleri önceden tanımlanmış özelliklere göre kategorize ettim. KNN, örüntüleri ve benzerlikleri tanımlamada etkili oldu. Model %98'in üzerinde bir doğruluk oranına ulaşarak çeşitli bağlamlarda kişilik özelliklerinin ortaya çıkarılması için değerli bir araç haline geldi.",
+                "link" : "Proje Linki: "
+            },
+            "weather" : {
+                "title" : "Hacettepe Hava Durumu Web Sitesi",
+                "tech" : "Kullanılan Teknoloji: NextJS",
+                "desc" : "Next.js kullanarak Hacettepe Üniversitesi için bir hava durumu web sitesi oluşturdum. Web sitesi öğrenciler, öğretim üyeleri ve ziyaretçiler için doğru ve ayrıntılı hava durumu güncellemeleri sağlıyor. Hacettepe'nin konumuna göre özelleştirilmiş gerçek zamanlı ve tahmini veriler sunmak için gelişmiş hava durumu API'lerini entegre ederek doğruluk ve ayrıntı düzeyi açısından genel hava durumu platformlarını geride bırakıyor. Kullanıcılar rüzgar hızı, nem ve basınç gibi ayrıntılı hava durumu parametrelerine erişerek açık hava etkinliklerini planlayabiliyor ve hava tahminlerine uyum sağlayabiliyorlar.",
+                "link" : "Proje Linki: "
+            }
+        },
+
         "experience" : {
             "exp1" : {
                 "title" : "Bilim ve Sanat Merkezi (BİLSEM) Eğitimi (9 Yıl)",
@@ -204,7 +258,7 @@
             "school2" : {
                 "name" : "Hacettepe Üniversitesi",
                 "depart" : "Bilgisayar Mühendisliği",
-                "gpa" : "GPA: 3.44 (4 üzerinden)",
+                "gpa" : "GPA: 3.51 (4 üzerinden)",
                 "year" : "2022-"
             }
         },

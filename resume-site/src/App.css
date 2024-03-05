@@ -202,7 +202,7 @@
   width: 40%;
   position: relative;
   left: 55%;
-  bottom: 700px;
+  bottom: 500px;
   color: aliceblue;
   text-shadow: 0px 0px 5px black;
   font-family: 'Montserrat', sans-serif;
@@ -349,19 +349,8 @@
   top: 3%;
 }
 
-.video-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-
-.video-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
+.projects {
+  height: 300vh;
 }
 
 .project-content {
@@ -378,29 +367,45 @@
 }
 
 .gif1 {
-  width: 30%;
-  height: 300px;
+  width: 35%;
+  height: 80%;
   border: none;
   position: absolute;
   right: 5%;
-  top: 13%;
+  top: 10%;
 }
 
 .gif2 {
-  width: 30%;
-  height: 300px;
+  width: 35%;
+  height: 80%;
   border: none;
   position: absolute;
-  left: 10%;
-  top: 13%;
+  left: 5%;
+  top: 10%;
+}
+
+.project-title1 {
+  color: aliceblue;
+  position: absolute;
+  left: 5%;
+  bottom: 75%;
+  font-size: 200%;
+}
+
+.project-title2 {
+  color: aliceblue;
+  position: absolute;
+  left: 50%;
+  bottom: 75%;
+  font-size: 200%;
 }
 
 .project-text1 {
   color: aliceblue;
   width: 40%;
   position: absolute;
-  left: 10%;
-  top: 5%;
+  left: 5%;
+  top: 15%;
   text-align: justify;
 }
 
@@ -409,7 +414,7 @@
   width: 40%;
   position: absolute;
   right: 5%;
-  top: 5%;
+  top: 15%;
   text-align: justify;
 }
 
@@ -598,6 +603,51 @@
     width: 90%;
     margin-left: 5%;
   }
+
+  .projects {
+    height: 600vh;
+  }
+
+  .project-content {
+    height: 20%;
+    top: 2%;
+  }
+  
+  .gif1 {
+    width: 90%;
+    height: 25%;
+    top: 12%;
+  }
+  
+  .gif2 {
+    width: 90%;
+    height: 25%;
+    top: 12%;
+  }
+  
+  .project-title1 {
+    top: 0%;
+    left: 5%;
+    font-size: 150%;
+  }
+  
+  .project-title2 {
+    top: 0%;
+    left: 5%;
+    font-size: 150%;
+  }
+  
+  .project-text1 {
+    width: 90%;
+    left: -5%;
+    top: 40%;
+  }
+  
+  .project-text2 {
+    width: 90%;
+    left: -5%;
+    top: 40%;
+  }
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
@@ -690,5 +740,49 @@
     width: 47%;
     left: 50%;
     top: 3%;
+  }
+
+  .projects {
+    height: 700vh;
+  }
+
+  .project-content {
+    height: 23%;
+  }
+  
+  .gif1 {
+    width: 60%;
+    height: 35%;
+    left: 20%;
+    top: 15%;
+  }
+  
+  .gif2 {
+    width: 60%;
+    height: 35%;
+    left: 20%;
+    top: 15%;
+  }
+  
+  .project-title1 {
+    top: 0%;
+    left: 5%;
+  }
+  
+  .project-title2 {
+    top: 0%;
+    left: 5%;
+  }
+  
+  .project-text1 {
+    width: 90%;
+    left: 0%;
+    top: 50%;
+  }
+  
+  .project-text2 {
+    width: 90%;
+    left: 0%;
+    top: 50%;
   }
 }
