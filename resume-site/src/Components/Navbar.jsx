@@ -73,7 +73,7 @@ export default function Navbar() {
       <div>
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <h1 className= {`navbar-name ${scrolled ? 'scrolled' : ''}`}> Arda Ceylan </h1>
-            <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
+            <div className={`mobile-menu-icon ${isMobileMenuOpen ? 'open' : ''}`} onClick={toggleMobileMenu}>
               <FontAwesomeIcon icon={isMobileMenuOpen ? faTimes : faBars} />
             </div>
             <div className={`navbar-links ${isMobileMenuOpen ? 'open' : ''}`}>
